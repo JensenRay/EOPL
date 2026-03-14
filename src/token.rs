@@ -1,0 +1,21 @@
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub enum Token {
+    Let,
+    In,
+    If,
+    Then,
+    Else,
+    ZeroPredicate,
+    Procedure,
+    RecursiveLet,
+    LeftParen,
+    RightParen,
+    Assignment,
+    Comma,
+    Number(i32),
+    Identifier(String),
+    Plus,
+    Minus,
+    Times,
+    Div,
+}
